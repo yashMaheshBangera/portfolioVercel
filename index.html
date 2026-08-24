@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Bangera — AI/ML Engineer</title>
+  <meta name="description" content="Yash Bangera — AI/ML Engineer. Applied ML and GenAI systems at cloud scale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Pipeline nav: the site's signature element. Stages map to sections, -->
+  <!-- and fill/checkmarks progress as the visitor scrolls, like a running job. -->
+  <header class="pipeline-nav" id="pipelineNav" aria-label="Section pipeline">
+    <div class="pipeline-track" role="navigation">
+      <div class="pipeline-fill" id="pipelineFill"></div>
+      <button class="stage" data-target="ingest" data-index="0">
+        <span class="stage-node"><span class="stage-check">✓</span></span>
+        <span class="stage-code">01</span><span class="stage-label">ingest</span>
+      </button>
+      <button class="stage" data-target="train" data-index="1">
+        <span class="stage-node"><span class="stage-check">✓</span></span>
+        <span class="stage-code">02</span><span class="stage-label">train</span>
+      </button>
+      <button class="stage" data-target="eval" data-index="2">
+        <span class="stage-node"><span class="stage-check">✓</span></span>
+        <span class="stage-code">03</span><span class="stage-label">eval</span>
+      </button>
+      <button class="stage" data-target="deploy" data-index="3">
+        <span class="stage-node"><span class="stage-check">✓</span></span>
+        <span class="stage-code">04</span><span class="stage-label">deploy</span>
+      </button>
+      <button class="stage" data-target="serve" data-index="4">
+        <span class="stage-node"><span class="stage-check">✓</span></span>
+        <span class="stage-code">05</span><span class="stage-label">serve</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <p class="hero-eyebrow">// run --job=portfolio --owner=yash_bangera</p>
+      <h1 class="hero-name">Yash Bangera<span class="cursor">_</span></h1>
+      <p class="hero-role">AI/ML Engineer — applied ML &amp; GenAI systems at cloud scale</p>
+      <p class="hero-sub">
+        5+ years building and shipping machine learning systems, most recently at
+        Amazon Web Services. MS in Data Science (Rochester Institute of Technology),
+        BTech in Computer Science (Vellore Institute of Technology).
+      </p>
+      <div class="hero-links">
+        <a href="mailto:your.email@example.com" class="link-pill">Email</a>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" class="link-pill">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="link-pill">LinkedIn</a>
+        <a href="resume.pdf" download class="link-pill link-pill--accent">Resume</a>
+      </div>
+    </section>
+
+    <!-- 01 INGEST — About -->
+    <section class="section" id="ingest">
+      <div class="section-inner">
+        <span class="stage-tag">01 / ingest</span>
+        <h2>About</h2>
+        <p class="lede">
+          I take machine learning systems from notebook to production —
+          data pipelines, model training, evaluation, and deployment on cloud infrastructure.
+        </p>
+        <p>
+          <!-- PLACEHOLDER: replace with your own 2–3 sentence narrative. Talk about the kind
+               of problems you like solving and the scale you've worked at. -->
+          Over the past 5+ years I've worked across the ML lifecycle — from building training
+          pipelines and fine-tuning models to deploying and monitoring them in production
+          environments serving real traffic. At AWS, I worked on [replace with a one-line
+          description of your team / focus area, e.g. "large-scale recommendation systems" or
+          "GenAI developer tooling"]. I'm currently exploring AI Engineer, Machine Learning
+          Engineer, and Forward Deployed Engineer roles.
+        </p>
+      </div>
+    </section>
+
+    <!-- 02 TRAIN — Experience -->
+    <section class="section" id="train">
+      <div class="section-inner">
+        <span class="stage-tag">02 / train</span>
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2022 — 2026</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Amazon Web Services</h3>
+              <p class="timeline-role"><!-- PLACEHOLDER: your actual title --> ML / Software Engineer</p>
+              <p>
+                <!-- PLACEHOLDER: 2–3 bullet-style achievements. Quantify where you can. -->
+                Built and maintained [system/service]. Worked on [specific ML/data problem].
+                Contributed to [impact — latency reduction, cost savings, scale handled, etc.].
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2020 — 2022</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Rochester Institute of Technology</h3>
+              <p class="timeline-role">MS, Data Science</p>
+              <p><!-- PLACEHOLDER: notable coursework, thesis, or projects --> Coursework and
+                 projects in applied machine learning, statistics, and large-scale data systems.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">2016 — 2020</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Vellore Institute of Technology</h3>
+              <p class="timeline-role">BTech, Computer Science</p>
+              <p><!-- PLACEHOLDER --> Foundation in algorithms, systems, and software engineering.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 03 EVAL — Skills -->
+    <section class="section" id="eval">
+      <div class="section-inner">
+        <span class="stage-tag">03 / eval</span>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">SQL</span>
+              <span class="tag">C++</span><span class="tag">Bash</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>ML / AI</h3>
+            <div class="tag-row">
+              <span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
+              <span class="tag">scikit-learn</span><span class="tag">LLMs / GenAI</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Cloud &amp; MLOps</h3>
+            <div class="tag-row">
+              <span class="tag">AWS SageMaker</span><span class="tag">Bedrock</span>
+              <span class="tag">EC2 / S3</span><span class="tag">Docker</span>
+              <span class="tag">CI/CD</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Data</h3>
+            <div class="tag-row">
+              <span class="tag">Spark</span><span class="tag">Pandas</span>
+              <span class="tag">Airflow</span><span class="tag">Data Pipelines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 DEPLOY — Projects -->
+    <section class="section" id="deploy">
+      <div class="section-inner">
+        <span class="stage-tag">04 / deploy</span>
+        <h2>Projects</h2>
+        <p class="lede">A few things I've shipped. Replace these with your own work.</p>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <span class="project-index">P.01</span>
+              <h3><!-- PLACEHOLDER --> Project Name</h3>
+            </div>
+            <p><!-- PLACEHOLDER: 1–2 sentence description of the problem and your approach. -->
+               One or two sentences on what this project does and the problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">PyTorch</span>
+              <span class="tag tag--small">AWS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <span class="project-index">P.02</span>
+              <h3><!-- PLACEHOLDER --> Project Name</h3>
+            </div>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">LLMs</span>
+              <span class="tag tag--small">RAG</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <span class="project-index">P.03</span>
+              <h3><!-- PLACEHOLDER --> Project Name</h3>
+            </div>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">Data Pipeline</span>
+              <span class="tag tag--small">Airflow</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-head">
+              <span class="project-index">P.04</span>
+              <h3><!-- PLACEHOLDER --> Project Name</h3>
+            </div>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">Computer Vision</span>
+              <span class="tag tag--small">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 SERVE — Contact -->
+    <section class="section section--serve" id="serve">
+      <div class="section-inner">
+        <span class="stage-tag">05 / serve</span>
+        <h2>Let's talk</h2>
+        <p class="lede">
+          Open to AI Engineer, Machine Learning Engineer, Data Scientist, and
+          Forward Deployed Engineer roles. Reach out any time.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:your.email@example.com" class="link-pill link-pill--accent">your.email@example.com</a>
+          <a href="https://github.com/your-username" target="_blank" rel="noopener" class="link-pill">GitHub</a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="link-pill">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Built by Yash Bangera. <span class="footer-status" id="footerStatus">status: <span class="ok">200 OK</span></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
