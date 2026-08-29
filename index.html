@@ -7,36 +7,21 @@
   <meta name="description" content="Yash Mahesh Bangera — Associate Delivery Consultant - AI/ML. Applied ML and GenAI systems at cloud scale." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Pipeline nav: the site's signature element. Stages map to sections, -->
-  <!-- and fill/checkmarks progress as the visitor scrolls, like a running job. -->
-  <header class="pipeline-nav" id="pipelineNav" aria-label="Section pipeline">
-    <div class="pipeline-track" role="navigation">
-      <div class="pipeline-fill" id="pipelineFill"></div>
-      <button class="stage" data-target="ingest" data-index="0">
-        <span class="stage-node"><span class="stage-check">✓</span></span>
-        <span class="stage-code">01</span><span class="stage-label">ingest</span>
-      </button>
-      <button class="stage" data-target="train" data-index="1">
-        <span class="stage-node"><span class="stage-check">✓</span></span>
-        <span class="stage-code">02</span><span class="stage-label">train</span>
-      </button>
-      <button class="stage" data-target="eval" data-index="2">
-        <span class="stage-node"><span class="stage-check">✓</span></span>
-        <span class="stage-code">03</span><span class="stage-label">eval</span>
-      </button>
-      <button class="stage" data-target="deploy" data-index="3">
-        <span class="stage-node"><span class="stage-check">✓</span></span>
-        <span class="stage-code">04</span><span class="stage-label">deploy</span>
-      </button>
-      <button class="stage" data-target="serve" data-index="4">
-        <span class="stage-node"><span class="stage-check">✓</span></span>
-        <span class="stage-code">05</span><span class="stage-label">serve</span>
-      </button>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-name">Yash Bangera</a>
+      <nav class="nav-links">
+        <a href="#about" data-target="about">About</a>
+        <a href="#experience" data-target="experience">Experience</a>
+        <a href="#skills" data-target="skills">Skills</a>
+        <a href="#projects" data-target="projects">Projects</a>
+        <a href="#contact" data-target="contact">Contact</a>
+      </nav>
     </div>
   </header>
 
@@ -44,9 +29,8 @@
 
     <!-- HERO -->
     <section class="hero" id="hero">
-      <p class="hero-eyebrow">// run --job=portfolio --owner=yash_bangera</p>
-      <h1 class="hero-name">Yash Mahesh Bangera<span class="cursor">_</span></h1>
-      <p class="hero-role">Associate Delivery Consultant - AI/ML — applied ML &amp; GenAI systems at cloud scale</p>
+      <h1 class="hero-name">Yash Mahesh Bangera</h1>
+      <p class="hero-role">Associate Delivery Consultant — AI/ML</p>
       <p class="hero-sub">
         5+ years building and shipping machine learning systems, most recently at
         Amazon Web Services. MS in Data Science (Rochester Institute of Technology),
@@ -60,10 +44,9 @@
       </div>
     </section>
 
-    <!-- 01 INGEST — About -->
-    <section class="section" id="ingest">
+    <!-- ABOUT -->
+    <section class="section" id="about">
       <div class="section-inner">
-        <span class="stage-tag">01 / ingest</span>
         <h2>About</h2>
         <p class="lede">
           I build production-grade Machine Learning and Artificial Intelligence solutions.
@@ -71,17 +54,16 @@
         <p>
           Over the past 5+ years I've worked across the ML lifecycle — from building training
           pipelines and fine-tuning models to deploying and monitoring them in production
-          environments serving real traffic. At AWS, I worked on the Professional Services (ProServe) 
+          environments serving real traffic. At AWS, I worked on the Professional Services (ProServe)
           team as an Associate Delivery Consultant, specializing in their AI and ML services.
           I'm currently exploring the AI Engineer, Machine Learning Engineer, and Forward Deployed Engineer roles.
         </p>
       </div>
     </section>
 
-    <!-- 02 TRAIN — Experience -->
-    <section class="section" id="train">
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
       <div class="section-inner">
-        <span class="stage-tag">02 / train</span>
         <h2>Experience</h2>
         <ol class="timeline">
           <li class="timeline-item">
@@ -89,37 +71,13 @@
               <span class="timeline-date">Jun 2022 — Jun 2026</span>
             </div>
             <div class="timeline-body">
-		<h3>Amazon Web Services</h3>
-		<div class="timeline-meta">
-              		<span class="timeline-date">Jun 2022 — Dec 2025</span>
-            	</div>
+              <h3>Amazon Web Services</h3>
               <p class="timeline-role">Associate Delivery Consultant - AI/ML</p>
-              <p>
-		<ul>
-                	<li>Collaborated cross-functionally with product, engineering, and data-science teams, leveraging AWS services like SageMaker and Bedrock among other AI services,
-			to turn ambiguous requirements into production-grade AI solutions, resulting in potential revenue optimizations of 20-30%.</li>
-                        <li>Conceptualized an intelligent document processing pipeline using Amazon Bedrock, Lambda, S3, SQS, and OpenSearch with OCR and NLP, enabling workforce
-			re-allocation, cost reduction of upto 40% and achieving 70-80% efficiency gains.</li>
-			<li>Combined classical ML, GenAI, and FM/LLM Ops with AWS AI/ML services, automating the deployment with AWS CDK/Terraform and CI/CD best practices
-			that helped reduce deployment time by 50% and revised overall security posture.</li>
-		</ul>             
-	      </p>
-		<div class="timeline-meta">
-              		<span class="timeline-date">Dec 2025 — Jun 2026</span>
-            	</div>
-	      <p class="timeline-role">Cloud Support Engineer - I (SageMaker, Vision & Other Services - SVO)</p>
-              <p>
-		<ul>
-                	<li>Directed critical customer escalations for SageMaker, delivering production-ready solutions like real-time inference, model latency reduction and custom model
-			hosting, decreasing post-deployment issues by 60% across healthcare, finance, IT and other sectors.</li>
-                        <li>Spearheaded the creation of internal automation tools using GenAI, ML, and prompt engineering, cutting case resolution time for 20+ engineers, resulting in faster
-			resolutions and better customer engagement quality.</li>
-			<li>Diagnosed and resolved 75+ critical, escalated SageMaker issues, ranking second globally within the Amazon SageMaker Support Operations team for case complexity and resolution 				speed.</li>
-			<li>Adopted best practices that delivered 95%+ CSAT scores measured individually across 7+ quarters leading to development of standard operational procedures for
-			the team to follow for quality customer interactions.
-			</li>
-		</ul>             
-	      </p>
+              <ul class="timeline-bullets">
+                <li>Collaborated cross-functionally with product, engineering, and data-science teams, leveraging AWS services like SageMaker and Bedrock among other AI services, to turn ambiguous requirements into production-grade AI solutions, resulting in potential revenue optimizations of 20-30%.</li>
+                <li>Conceptualized an intelligent document processing pipeline using Amazon Bedrock, Lambda, S3, SQS, and OpenSearch with OCR and NLP, enabling workforce re-allocation, cost reduction of up to 40%, and achieving 70-80% efficiency gains.</li>
+                <li>Combined classical ML, GenAI, and FM/LLM Ops with AWS AI/ML services, automating the deployment with AWS CDK/Terraform and CI/CD best practices that helped reduce deployment time by 50% and revised overall security posture.</li>
+              </ul>
             </div>
           </li>
           <li class="timeline-item">
@@ -129,264 +87,126 @@
             <div class="timeline-body">
               <h3>Rochester Institute of Technology</h3>
               <p class="timeline-role">Teaching Assistant</p>
-              <p>
-		<ul>
-			<li>Mentored over 30 students in Data Science Fundamentals and Python, demonstrating diverse AI/ML use cases, resulting in 90% of students demonstrating
-			proficiency in building and deploying ML models.</li>
-			<li>Mapped model performance across student projects, providing targeted feedback on implementations of K-NN, Neural Networks, Decision Trees among others by
-			identifying areas of improvement, and achieving model accuracy of over 95%.</li>
-			<li>Conducted live Kahoot quizzes-10+ over one semester to boost student retention and learning, receiving positive feedback from the professor for the approach.</li>
-		</ul>
-	      </p>
+              <p><!-- PLACEHOLDER: notable coursework, thesis, or projects --> Coursework and
+                 projects in applied machine learning, statistics, and large-scale data systems.</p>
               <p class="timeline-role">Research Assistant</p>
-              <p>
-		<ul>
-			<li>Prototyped feature engineering pipelines using Pandas and NLTK to analyze 500,000+ data points across two linguistic research studies, resulting in 10 newly
-			engineered features including word embeddings, GloVe, and tf-idf scores.</li>
-			<li>Architected ML pipelines that slashed model training duration by 35% and improved accuracy to 85% or more through optimized feature selection; this allowed for
-			faster iteration and model experimentation for the team.</li>
-			<li>Visualized data distributions and anomalies using Matplotlib+Seaborn leading to the identification of 100+ anomalies for better downstream accuracy scores.</li>
-		</ul>
-	      </p>
-	      <p class="timeline-role">Summary</p>
-	      <p>
-		Overall GPA : 3.46 / 4.0<br>
-		Coursework : Foundations of Data Science, Applied Statistics, Applied Data Science, Software Engineering for Data Science, Applied Linear Regression, Deep Learning for Computer Vision, Software 		Construction, Natural Language Processing, Neural Networks for Data Science<br>
-		Publication / Capstone Project : <a href="https://arxiv.org/abs/2303.01490">Language Variety Identification with True Labels - LREC-COLING 2024</a><br>
-		Publication Domain(s) : Natural Language Processing, Machine Learning, Python, Amazon MTurk, Dataset Annotation<br>
-		Other Projects : Prediction of Burned Forest Area using Multivariate Regression Analysis<br>
-	      </p>
+              <p><!-- PLACEHOLDER: notable coursework, thesis, or projects --> Coursework and
+                 projects in applied machine learning, statistics, and large-scale data systems.</p>
             </div>
           </li>
-	  <li class="timeline-item">
-          <div class="timeline-meta">
-		<span class="timeline-date">October 2019-July 2020</span>
-	  </div>
-	  <div class="timeline-body">
-	  <h3>Omdena,Inc.</h3>
-	  <p class="timeline-role">Junior Machine Learning Engineer -> Lead Machine Learning Engineer</p>
-          <p>
-	     <ul>
-		<li>Detected <a href="https://www.omdena.com/blog/artificial-intelligence-wildfires">forest fires</a> in the Amazon Rainforest using computer vision algorithms with a ResNet architecture,             		achieving a 10-33% reduction in false positives through Gaussian blur removal with model accuracy of 95-97%.</li><br>		
-		<li>Partnered with Creedix to engineer 10 new features using statistical analysis in Python and built an unsupervised DBSCAN clustering algorithm with scikit-learn
-		which enabled an <a href="https://www.omdena.com/blog/credit-scoring-ai">ethical credit-scoring system</a> for Indonesian borrowers.</li><br>
-		<li>Analyzed the effects of <a href="https://www.omdena.com/blog/artificial-intelligence-covid19">COVID-19 government policies</a> on vulnerable groups’ access to health, education, and 			employment using Tableau, SQL, and NLTK; findings were presented at the <a href="https://www.omdena.com/blog/omdena-times-square">UN AI for Good Global Summit</a> and showcased by NASDAQ in 			Times Square, NY.</li><br>	     
-	    </ul>
-	  </p>
-	  </div>
-	  </li>	
           <li class="timeline-item">
             <div class="timeline-meta">
               <span class="timeline-date">August 2015 — May 2019</span>
             </div>
             <div class="timeline-body">
               <h3>Vellore Institute of Technology</h3>
-              <p class="timeline-role">B.Tech., Computer Science and Engineering</p>
-              <p>
-	      	Overall GPA : 7.85 / 10.0<br>
-		Coursework : Problem Solving and Programming, Calculus for Engineers, Data Structures and Algorithms, Statistics for Engineers, Applications of Difference and Differential Equations, Introduction to Innovative Projects, Problem Solving and Object Oriented Programming, Computer Architecture and Organization, Software Engineering, Database Management Systems, Applied Linear Algebra, Web Mining, Data Visualization, Parallel and Distributed Computing, Large Scale Data Processing, Image Processing, Machine Learning, Artificial Intelligence, Virtualization, Object Oriented Software Development<br>
-		Projects : Prediction of Future Stock Prices using Natural Language Processing from newspaper articles, Online Voting System with PHP and HTML<br>
-	 	Publication : <a href="https://www.sciencedirect.com/science/article/pii/S1877050920301083">Privacy Preservation and Signature Aggregation for Medical Data - ICRTAC 2019</a>
-	      </p> 
+              <p class="timeline-role">BTech, Computer Science and Engineering</p>
+              <p><!-- PLACEHOLDER --> Foundation in algorithms, systems, and software engineering.</p>
             </div>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- 03 EVAL — Skills -->
-    <section class="section" id="eval">
+    <!-- SKILLS -->
+    <section class="section" id="skills">
       <div class="section-inner">
-        <span class="stage-tag">03 / eval</span>
         <h2>Skills</h2>
         <div class="skills-grid">
           <div class="skill-group">
-            <h3>Programming Languages</h3>
+            <h3>Languages</h3>
             <div class="tag-row">
-              <span class="tag">Python</span><span class="tag">C</span>
-              <span class="tag">C++</span><span class="tag">Java</span>
-	      <span class="tag">R</span>
+              <span class="tag">Python</span><span class="tag">SQL</span>
+              <span class="tag">C++</span><span class="tag">Bash</span>
             </div>
           </div>
           <div class="skill-group">
-            <h3>Data Science Stack</h3>
+            <h3>ML / AI</h3>
             <div class="tag-row">
-              <span class="tag">Jupyter</span><span class="tag">SQL</span>
-              <span class="tag">Pandas</span>
-	      <span class="tag">NumPy</span><span class="tag">Seaborn</span>
-              <span class="tag">SciPy</span><span class="tag">NLTK</span>
-	      <span class="tag">Gensim</span><span class="tag">Spacy</span>
-              <span class="tag">OpenCV</span>
-            </div>
-          </div>
-	  <div class="skill-group">
-            <h3>Machine Learning Stack</h3>
-            <div class="tag-row">
-              <span class="tag">Scikit-Learn</span>
-	      <span class="tag">XGBoost</span>
-              <span class="tag">CatBoost</span>
+              <span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
+              <span class="tag">scikit-learn</span><span class="tag">LLMs / GenAI</span>
+              <span class="tag">NLP</span>
             </div>
           </div>
           <div class="skill-group">
-            <h3>MLOps Stack</h3>
+            <h3>Cloud &amp; MLOps</h3>
             <div class="tag-row">
-              <span class="tag">MLFlow</span>
-              <span class="tag">Kubeflow</span>
-              <span class="tag">Airflow</span>
+              <span class="tag">AWS SageMaker</span><span class="tag">Bedrock</span>
+              <span class="tag">EC2 / S3</span><span class="tag">Docker</span>
+              <span class="tag">CI/CD</span>
             </div>
           </div>
           <div class="skill-group">
-            <h3>Deep Learning Stack</h3>
+            <h3>Data</h3>
             <div class="tag-row">
-              <span class="tag">Tensorflow</span><span class="tag">PyTorch</span>
-              <span class="tag">Keras</span><span class="tag">CUDA</span>
+              <span class="tag">Spark</span><span class="tag">Pandas</span>
+              <span class="tag">Airflow</span><span class="tag">Data Pipelines</span>
             </div>
           </div>
-	  <div class="skill-group">
-            <h3>Generative AI Stack</h3>
-            <div class="tag-row">
-              <span class="tag">HuggingFace Transformers</span><span class="tag">LangChain</span>
-              <span class="tag">LangGraph</span><span class="tag">AWS Strands Agents</span>
-              <span class="tag">LlamaIndex</span><span class="tag">FAISS</span>
-              <span class="tag">PineCone</span><span class="tag">Qdrant</span>
-              <span class="tag">pgvector</span><span class="tag">RAGAS</span>
-              <span class="tag">LangSmith</span><span class="tag">vLLM</span>
-	      <span class="tag">OLlama</span>
-	    </div>
-	</div>
-	<div class="skill-group">
-	    <h3>Analytics Stack</h3>
-	    <div class="tag-row">
-               <span class="tag">Tableau</span>
-	       <span class="tag">Minitab</span>
-               <span class="tag">GNU Octave</span>
-               <span class="tag">R Studio</span>
-            </div>
-        </div>
-	<div class="skill-group">
-	    <h3>Data Annotation Stack</h3>
-	    <div class="tag-row">
-               <span class="tag">Amazon SageMaker GroundTruth</span>
-	       <span class="tag">Amazon MTurk</span>
-               <span class="tag">LabelBox</span>
-            </div>
-        </div>
-	<div class="skill-group">
-	    <h3>AWS Services</h3>
-	    <div class="tag-row">
-               <span class="tag">Amazon SageMaker AI</span>
-	       <span class="tag">Amazon Bedrock</span>
-               <span class="tag">Amazon Bedrock AgentCore</span>
-	       <span class="tag">Amazon Textract</span>
-	       <span class="tag">Amazon Rekognition</span>
-               <span class="tag">Amazon Personalize</span>
-	       <span class="tag">Amazon EC2</span>
-	       <span class="tag">Amazon Comprehend</span>
-               <span class="tag">Amazon Lex</span>
-	       <span class="tag">Amazon ECS</span>
-	       <span class="tag">Amazon Translate</span>
-               <span class="tag">Amazon Polly</span>
-	       <span class="tag">Amazon EMR</span>
-	       <span class="tag">Amazon Glue</span>
-               <span class="tag">Amazon Athena</span>
-	       <span class="tag">Amazon Redshift</span>
-	       <span class="tag">Amazon OpenSearch</span>
-               <span class="tag">Amazon SageMaker Unified Studio</span>
-	       <span class="tag">Amazon Fargate</span>
-	       <span class="tag">Amazon EKS</span>
-               <span class="tag">Amazon CloudWatch</span>
-	       <span class="tag">Amazon S3</span>
-               <span class="tag">Amazon SQS</span>
-               <span class="tag">Amazon SNS</span>
-               <span class="tag">Amazon EventsBridge</span>
-               <span class="tag">Amazon API Gateway</span>
-               <span class="tag">Amazon Lambda</span>
-               <span class="tag">Amazon IAM</span>
-               <span class="tag">Amazon VPC</span>
-	       <span class="tag">Amazon X-Ray</span>
-            </div>
         </div>
       </div>
-	
     </section>
 
-    <!-- 04 DEPLOY — Projects -->
-    <section class="section" id="deploy">
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
       <div class="section-inner">
-        <span class="stage-tag">04 / deploy</span>
         <h2>Projects</h2>
-        <p class="lede">A few things I've shipped.</p>
+        <p class="lede">A few things I've shipped. Replace these with your own work.</p>
         <div class="project-grid">
 
           <article class="project-card">
-            <div class="project-card-head">
-              <span class="project-index">P.01</span>
-              <h3>RAG Based Contextual Bot</h3>
-            </div>
-            <p>Customer support chatbot with thousands of company-proprietary documents as data sources that answers customer support questions using natural language querying.</p>
+            <h3><!-- PLACEHOLDER --> Project Name</h3>
+            <p><!-- PLACEHOLDER: 1–2 sentence description of the problem and your approach. -->
+               One or two sentences on what this project does and the problem it solves.</p>
             <div class="tag-row">
-              <span class="tag tag--small">Terraform</span>
-              <span class="tag tag--small">Amazon Bedrock</span>
-              <span class="tag tag--small">Amazon OpenSearch</span>
-              <span class="tag tag--small">Amazon S3</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card-head">
-              <span class="project-index">P.02</span>
-              <h3>Intelligent Document Processing (IDP) using AWS</h3>
-            </div>
-            <p>Concurrent document intelligence extraction using Amazon's AI Services</p>
-            <div class="tag-row">
-              <span class="tag tag--small">AWS SDK for Python</span>
-              <span class="tag tag--small">Amazon Bedrock</span>
-	      <span class="tag tag--small">Amazon Textract</span>
-              <span class="tag tag--small">Amazon Comprehend</span>
-              <span class="tag tag--small">Amazon SQS</span>
-              <span class="tag tag--small">Amazon Lambda</span>
-              <span class="tag tag--small">Amazon X-Ray</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card-head">
-              <span class="project-index">P.03</span>
-              <h3>Simple Artificial Neural Network (Simple ANN)</h3>
-            </div>
-            <p>A deep learning artificial neural network made from scratch using Tensorflow and Python that yields around 97.71% accuracy for hand-written digit classification.</p>
-            <div class="tag-row">
-              <span class="tag tag--small">Tensorflow</span>
-              <span class="tag tag--small">Keras</span>
-	      <span class="tag tag--small">Python</span>
+              <span class="tag tag--small">PyTorch</span>
+              <span class="tag tag--small">AWS</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/yashMaheshBangera/simple_ann" target="_blank" rel="noopener">Code →</a>
-              <a href="https://github.com/yashMaheshBangera/simple_ann#get-started-rocket" target="_blank" rel="noopener">Demo →</a>
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
             </div>
           </article>
 
           <article class="project-card">
-            <div class="project-card-head">
-              <span class="project-index">P.04</span>
-              <h3>Email Spam Classifier</h3>
-            </div>
-            <p>A Machine Learning pipeline that classifies an incoming email as spam or not with over ~96% accuracy.</p>
+            <h3><!-- PLACEHOLDER --> Project Name</h3>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
             <div class="tag-row">
-              <span class="tag tag--small">Python</span>
-              <span class="tag tag--small">Statistical Analysis</span>
-              <span class="tag tag--small">Data Analysis</span>
-              <span class="tag tag--small">Feature Engineering</span>
-              <span class="tag tag--small">Machine Learning</span>
-              <span class="tag tag--small">Hyperparameter Optimization - Optuna</span>
-              <span class="tag tag--small">XGBoost</span>
-              <span class="tag tag--small">Supervised Learning</span>
-              <span class="tag tag--small">Git</span>
-              <span class="tag tag--small">Streamlit</span>
+              <span class="tag tag--small">LLMs</span>
+              <span class="tag tag--small">RAG</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/yashMaheshBangera/spamOrNot" target="_blank" rel="noopener">Code →</a>
-              <a href="https://github.com/yashMaheshBangera/spamOrNot#get-started-" target="_blank" rel="noopener">Demo →</a>
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3><!-- PLACEHOLDER --> Project Name</h3>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">Data Pipeline</span>
+              <span class="tag tag--small">Airflow</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3><!-- PLACEHOLDER --> Project Name</h3>
+            <p><!-- PLACEHOLDER --> One or two sentences on what this project does and the
+               problem it solves.</p>
+            <div class="tag-row">
+              <span class="tag tag--small">Computer Vision</span>
+              <span class="tag tag--small">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Code →</a>
+              <a href="#" target="_blank" rel="noopener">Demo →</a>
             </div>
           </article>
 
@@ -394,19 +214,18 @@
       </div>
     </section>
 
-    <!-- 05 SERVE — Contact -->
-    <section class="section section--serve" id="serve">
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
       <div class="section-inner">
-        <span class="stage-tag">05 / serve</span>
         <h2>Let's talk</h2>
         <p class="lede">
           Open to AI Engineer, Machine Learning Engineer, Data Scientist, and
           Forward Deployed Engineer roles. Reach out any time.
         </p>
         <div class="hero-links">
-          <a href="mailto:your.email@example.com" class="link-pill link-pill--accent">your.email@example.com</a>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener" class="link-pill">GitHub</a>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="link-pill">LinkedIn</a>
+          <a href="mailto:yashmaheshbangera.work@gmail.com" class="link-pill link-pill--accent">yashmaheshbangera.work@gmail.com</a>
+          <a href="https://github.com/yashMaheshBangera" target="_blank" rel="noopener" class="link-pill">GitHub</a>
+          <a href="https://www.linkedin.com/in/yash-mahesh-bangera-078a44161" target="_blank" rel="noopener" class="link-pill">LinkedIn</a>
         </div>
       </div>
     </section>
@@ -414,7 +233,7 @@
   </main>
 
   <footer class="footer">
-    <p>Built by Yash Bangera. <span class="footer-status" id="footerStatus">status: <span class="ok">200 OK</span></span></p>
+    <p>&copy; 2026 Yash Mahesh Bangera.</p>
   </footer>
 
   <script src="script.js"></script>
