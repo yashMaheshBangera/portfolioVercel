@@ -181,6 +181,10 @@ a:hover { text-decoration: underline; }
 .timeline-bullets li { margin-bottom: 8px; }
 .timeline-bullets li:last-child { margin-bottom: 0; }
 
+/* Breathing room when one entry stacks multiple roles (e.g. TA + RA + Summary) */
+.timeline-bullets + .timeline-role { margin-top: 22px; }
+.timeline-bullets + p:not(.timeline-role) { margin-top: 16px; }
+
 /* ---- Skills ---- */
 .skills-grid {
   display: grid;
