@@ -167,6 +167,7 @@ a:hover { text-decoration: underline; }
   border-top: 1px solid var(--border);
 }
 .timeline-item:first-child { border-top: none; }
+.timeline-item.timeline-item--grouped { border-top: none; padding-top: 4px; }
 
 .timeline-date {
   font-family: var(--font-mono);
